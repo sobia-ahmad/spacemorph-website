@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Font Awesome Icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!--My stylesheet-->
+        <link rel="stylesheet" href="style.css">
+        <title>SpaceMorph Website</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <!--SpaceMorph Icon-->
+                <a class="space-icon"><i class="fas fa-space-shuttle"></i>Space<span>Morph</span></a>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#browse" class="nav-link">Browse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#planets" class="nav-link">Planets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <!--Square icon-->
+                    <i class="fas fa-times nav-close" id="nav-close"></i>
+                </div>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <!--X icon-->
+                    <i class="far fa-square"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--Main home section-->
+            <section class="home" id="home">
+                <img src="images/main-white-space-background.jpeg" alt="Home Background" class="home-img">
+
+                <div class="home-container container grid">
+                    <div class="home-data">
+                        <div>
+                            <h1 class="home-data-title"><a class="space-heading"><br><div class="space-slogan"><i class="fas fa-space-shuttle"></i>Space<span>Morph</span> - We make your dreams <b>real.</b></div><br></a><br>See the most out of this <b>world</b> views across the entire solar system now. You can go from Mars to Jupiter with us...</h1></a>
+                        </div>
+                        <a href="#" class="button">View Planets</a>
+                    </div>
+                    <!--Social icons area-->
+                    <div class="home-social">
+                        <a href="https://twitter.com/" target="-blank" class="home-social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="-blank" class="home-social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.snapchat.com/" target="-blank" class="home-social-link">
+                            <i class="fab fa-snapchat-square"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!--About section-->
+            <section class="about section" id="about">
+                <div class="about-container container grid">
+                    <div class="about-data">
+                        <h2 class="section-title ">ABOUT:<br>Learn more about space now</h2>
+                        <p class="about-description">You will see the most incredible views - they are quite literally out of this world!
+                        </p>
+                        <a href="#" class="button">Book Now</a>
+                    </div>
+
+                    <div class="about-img">
+                        <div class="about-img-overlay">
+                            <img src="images/space-background.jpeg" alt="" class="about-img-one">
+                        </div>
+
+                        <div class="about-img-overlay">
+                            <img src="images/earth.jpeg" alt="" class="about-img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Browse section-->
+            <section class="browse section" id="browse">
+                <h2 class="section-title">BROWSE:<br>Browse the coolest places</h2>
+                
+                <div class="browse-container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--Browse area A-->
+                        <div class="browse-card swiper-slide">
+                            <img src="images/mars-rollercoaster.jpeg" alt="" class="browse-img">
+                            <div class="browse-data">
+                                <h2 class="browse-title">The Martian Rollercoaster</h2>
+                                <span class="browse-description">24 rides available</span>
+                            </div>   
+                        </div>
+                        <!--Browse area B-->
+                        <div class="browse-card swiper-slide">
+                            <img src="images/galactic-golf.jpeg" alt="" class="browse-img">
+                            <div class="browse-data">
+                                <h2 class="browse-title">Galactic Golf Courses</h2>
+                                <span class="browse-description">200 courses available</span>
+                            </div>
+                        </div>
+                        <!--Browse area C-->
+                        <div class="browse-card swiper-slide">
+                            <img src="images/space-shuttle.jpeg" alt="" class="browse-img">
+                            <div class="browse-data">
+                                <h2 class="browse-title">Space Shuttle Launch from Jupiter</h2>
+                                <span class="browse-description">Why not visit Earth from a different planet?</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        <!--Planets-->
+        <!--Saturn-->
+        <section class="place section container" id="planets">
+
+        <h2 class="section-title">PLANETS:<br> Visit the planets of the solar system and morph into space now!</h2><br>
+        <div class="place-card">
+            <img src="images/saturn.jpeg" alt="Saturn" class="place-img">
+            <div class="place-content">
+                <span class="place-rating">
+                    <i class="far fa-star place-rating-icon"></i>
+                                <span class="place-rating-number">4.9</span>
+                            </span>
+
+                            <div class="place-data">
+                                <h3 class="place-title">Saturn</h3>
+                                <span class="place-subtitle">Make it the most unforgettable SATURNday!<br>Put a ring on it like Beyonce.</span>
+                                <span class="place-price">£1500</span>
+                                <span class="place-rating">
+                                    <i class="far fa-star place-rating-icon"></i>
+                                    <span class="place-rating-number">4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        </div><br>
+        <!--Mercury-->
+        <div class="place-card">
+            <img src="images/mercury.jpeg" alt="Mercury" class="place-img"><br>
+            
+            <div class="place-content">
+
+                <div class="place-data">
+                    <h3 class="place-title">Mercury</h3>
+                    <span class="place-subtitle">The planet, not the chemical</span>
+                    <span class="place-price">£1200</span>
+                    <span class="place-rating">
+                        <i class="far fa-star place-rating-icon"></i>
+                        <span class="place-rating-number">4.8</span>
+                    </div>
+                </div>
+            </div><br>
+<!--Mars-->
+<div class="place-card">
+    <img src="images/mars.jpeg" alt="Mars" class="place-img"><br>
+    
+    <div class="place-content">
+        <span class="place-rating">
+            <i class="far fa-star place-rating-icon"></i>
+            <span class="place-rating-number">5.0</span>
+        </span>
+
+        <div class="place-data">
+            <h3 class="place-title">Mars</h3>
+            <span class="place-subtitle">Why not enjoy an Earth bar chocolate?</span>
+            <span class="place-price">£1500</span>
+            <span class="place-rating">
+                <i class="far fa-star place-rating-icon"></i>
+                <span class="place-rating-number">4.9</span>
+        </div>
+    </div>
+</div>
+</div><br>
+
+<!--Earth 2.0-->
+<div class="place-card">
+    <img src="images/earth.2.0.jpeg" alt="Earth 2.0" class="place-img"><br>
+    
+    <div class="place-content">
+        
+        <div class="place-data">
+            <h3 class="place-title">Earth 2.0</h3>
+            <span class="place-subtitle">Why not visit your twin planet?</span>
+            <span class="place-price">£2000</span>
+            <span class="place-rating">
+                <i class="far fa-star place-rating-icon"></i>
+                <span class="place-rating-number">5.0</span>
+        </div>
+    </div>
+</div>
+</div><br>
+
+<!--Earth-->
+<div class="place-card">
+    <img src="images/earth.jpeg" alt="Earth" class="place-img"><br>
+    
+    <div class="place-content">
+        <div class="place-data">
+            <h3 class="place-title">Earth 1.0</h3>
+            <span class="place-subtitle">You're already here!</span>
+            <span class="place-price">£0.00</span>
+            <span class="place-rating">
+                <i class="far fa-star place-rating-icon"></i>
+                <span class="place-rating-number">3.5</span>
+        </div>
+    </div>
+</div>
+</div><br>
+
+<!--Neptune-->
+<div class="place-card">
+    <img src="images/neptune.jpeg" alt="Neptune" class="place-img"><br>
+    
+    <div class="place-content">
+        <div class="place-data">
+            <h3 class="place-title">Neptune</h3>
+            <span class="place-subtitle">Listen to some TUNES on the blue planet</span>
+            <span class="place-price">£1500</span>
+            <span class="place-rating">
+                <i class="far fa-star place-rating-icon"></i>
+                <span class="place-rating-number">4.3</span>
+        </div>
+    </div>
+</div>
+</div><br>
+
+<!--Jupiter-->
+<div class="place-card">
+    <img src="images/jupiter.png" alt="Jupiter" class="place-img"><br>
+    
+    <div class="place-content">
+        <div class="place-data">
+            <h3 class="place-title">Jupiter</h3>
+            <span class="place-subtitle">Why not jump to Jupiter?</span>
+            <span class="place-price">£900</span>
+            <span class="place-rating">
+                <i class="far fa-star place-rating-icon"></i>
+                <span class="place-rating-number">3.7</span>
+        </div>
+    </div>
+</div>
+</div><br>
+<!--Footer area-->
+<footer class="footer section" id="contact">
+    <div class="footer-content grid">
+        <div class="footer-data">
+            <h2 class="section-title">CONTACT:<br>Reach for the stars...</h2><br>
+
+            <h3 class="footer-subtitle">Contact</h3>
+            <ul>
+                <li class="footer-item">
+                    <a href="" class="footer-link">Email Us</a>
+                </li>
+                <li class="footer-item">
+                    <a href="" class="footer-link">Use a Space Phone</a>
+                </li>
+                <li class="footer-item">
+                    <a href="" class="footer-link">Alien Languages</a>
+                </li>
+                <li class="footer-item">
+                    <a href="" class="footer-link">Space Dreams</a>
+                </li>
+                <li class="footer-item">
+                    <a href="" class="footer-link">Satellite Views</a>
+                </li>
+            </ul>
+              <h3 class="footer-title">Explore</h3>
+              <p class="footer-description">Go wherever you <br> desire.
+                            You can go <br> anywhere you wish to with us.<br>
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://www.github.com/sobia-ahmad" class="space-slogan"><i class="fas fa-space-shuttle"></i>Space<span><b>Morph</b></span></a>
+                    </div>
+                    <div>
+                        <p class="footer-copy"><a class="space-icon footer-copy"><i class="fas fa-space-shuttle"></i>Space<span>Morph </span></a>© Sobia Ahmad 2021.
+                    <div class="footer-terms">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
